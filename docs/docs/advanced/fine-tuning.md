@@ -48,8 +48,8 @@ const models = {
         endpoint: "https://api.anthropic.com/v1",
         model: {
             [ModelClass.SMALL]: "claude-3-5-haiku",
-            [ModelClass.MEDIUM]: "claude-3-5-sonnet-20241022",
-            [ModelClass.LARGE]: "claude-3-5-opus-20240229",
+            [ModelClass.MEDIUM]: "claude-3-5-sonnet-latest",
+            [ModelClass.LARGE]: "claude-3-5-opus-latest",
         },
     },
     // ... other providers
@@ -243,8 +243,8 @@ const anthropicSettings = {
     },
     model: {
         [ModelClass.SMALL]: "claude-3-5-haiku",
-        [ModelClass.MEDIUM]: "claude-3-5-sonnet-20241022",
-        [ModelClass.LARGE]: "claude-3-5-opus-20240229",
+        [ModelClass.MEDIUM]: "claude-3-5-sonnet-latest",
+        [ModelClass.LARGE]: "claude-3-5-opus-latest",
     },
 };
 ```

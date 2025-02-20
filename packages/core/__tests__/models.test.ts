@@ -68,10 +68,10 @@ describe("Model Provider Configuration", () => {
                 "claude-3-haiku-20240307"
             );
             expect(anthropicModels[ModelClass.MEDIUM].name).toBe(
-                "claude-3-5-sonnet-20241022"
+                "claude-3-5-sonnet-latest"
             );
             expect(anthropicModels[ModelClass.LARGE].name).toBe(
-                "claude-3-5-sonnet-20241022"
+                "claude-3-5-sonnet-latest"
             );
         });
 
@@ -156,7 +156,7 @@ describe("Model Retrieval Functions", () => {
                 "gpt-4o-mini"
             );
             expect(models[ModelProviderName.ANTHROPIC].model[ModelClass.MEDIUM].name).toBe(
-                "claude-3-5-sonnet-20241022"
+                "claude-3-5-sonnet-latest"
             );
         });
 

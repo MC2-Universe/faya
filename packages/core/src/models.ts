@@ -92,7 +92,7 @@ export const models: Models = {
         model: {
             [ModelClass.SMALL]: {
                 name:
-                    settings.SMALL_ANTHROPIC_MODEL || "claude-3-haiku-20240307",
+                    settings.SMALL_ANTHROPIC_MODEL || "claude-3-haiku-latest",
                 stop: [],
                 maxInputTokens: 200000,
                 maxOutputTokens: 4096,
@@ -103,7 +103,7 @@ export const models: Models = {
             [ModelClass.MEDIUM]: {
                 name:
                     settings.MEDIUM_ANTHROPIC_MODEL ||
-                    "claude-3-5-sonnet-20241022",
+                    "claude-3-5-sonnet-latest",
                 stop: [],
                 maxInputTokens: 200000,
                 maxOutputTokens: 4096,
@@ -115,7 +115,7 @@ export const models: Models = {
             [ModelClass.LARGE]: {
                 name:
                     settings.LARGE_ANTHROPIC_MODEL ||
-                    "claude-3-5-sonnet-20241022",
+                    "claude-3-5-sonnet-latest",
                 stop: [],
                 maxInputTokens: 200000,
                 maxOutputTokens: 4096,
@@ -129,7 +129,7 @@ export const models: Models = {
         endpoint: "https://api.anthropic.com/v1", // TODO: check
         model: {
             [ModelClass.SMALL]: {
-                name: "claude-3-5-sonnet-20241022",
+                name: "claude-3-5-sonnet-latest",
                 stop: [],
                 maxInputTokens: 200000,
                 maxOutputTokens: 8192,
@@ -138,7 +138,7 @@ export const models: Models = {
                 temperature: 0.7,
             },
             [ModelClass.MEDIUM]: {
-                name: "claude-3-5-sonnet-20241022",
+                name: "claude-3-5-sonnet-latest",
                 stop: [],
                 maxInputTokens: 200000,
                 maxOutputTokens: 8192,
@@ -147,7 +147,7 @@ export const models: Models = {
                 temperature: 0.7,
             },
             [ModelClass.LARGE]: {
-                name: "claude-3-opus-20240229",
+                name: "claude-3-opus-latest",
                 stop: [],
                 maxInputTokens: 200000,
                 maxOutputTokens: 8192,

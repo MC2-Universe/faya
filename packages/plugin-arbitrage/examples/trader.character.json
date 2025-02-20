@@ -20,7 +20,7 @@
     ],
     "modelSettings": {
         "provider": "anthropic",
-        "model": "claude-3-sonnet-20240229"
+        "model": "claude-3-sonnet-latest"
     },
     "bio": [
         "Expert in cryptocurrency trading and arbitrage.",
